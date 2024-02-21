@@ -1,0 +1,121 @@
+body{
+    background-color: white;
+}
+
+nav{
+    padding: 10px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1976d2;
+}
+
+.signup-button{
+    background-color: #1976d2;
+    font-size: 40px;
+    color: white;
+    width: 180px;
+    height:70px ;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+nav h3{
+    font-size: 30px;
+}
+
+.payment{
+    padding: 0 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1976d2;
+    border: none;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 800px;
+    height: 130px;
+}
+
+.growing{
+    margin-top: 40px;
+    padding: 0 75px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: rgb(60, 60, 60);
+    padding-right: 0px;
+    padding-bottom: 110px;
+    width: 1650px;
+}
+
+.index{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    width: 2000px;
+    padding-bottom: 20px;
+}
+
+.index-text{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    padding-left: 150px;
+}
+
+.dash-board{
+    display: inline-block;
+    float: right;
+    padding-right: 300px;
+}
+
+.payment div{
+    height: 30px;
+    width: 30px;
+}
+
+.growing div{
+    width: 100%;
+   height: auto;
+}
+
+@media only screen and (min-width: 1024px){
+   nav ul{
+    display: flex; 
+    list-style: none;
+    gap: 50px; 
+}
+nav h3{
+    display: none;
+}
+
+dash-board img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    justify-content: space-around;
+}
